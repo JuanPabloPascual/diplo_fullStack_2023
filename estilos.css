@@ -1,0 +1,32 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+h1{
+    color: black; 
+    font-family: Abril Fatface;
+}
+h2{
+    color: black;
+}
+body{
+    background-image: url(./Imagenes/mate.jpg);
+    background-color: darkgreen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul{ 
+    color: darkolivegreen;
+}
+p{
+    color: aliceblue;
+}
+.Pasos{ 
+    display: inline-block
+}
+.Pasos li{
+    text-decoration: none;
+    color: brown;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
