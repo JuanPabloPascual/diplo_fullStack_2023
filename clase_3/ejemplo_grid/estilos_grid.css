@@ -1,0 +1,59 @@
+/* .grid{
+    display: grid;
+    grid-template-columns: 200px 50px;
+    grid-template-rows: 40px 100px;
+} 
+
+*/
+
+/* Estilo del contenedor de la grilla */
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "navegacion header header"
+    "navegacion productos publicidad"
+    "navegacion servicios publicidad"
+    "navegacion footer footer";
+
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-column: 20% auto 15%; 
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    height: 100vh;
+}
+
+/* Estilos de las areas */
+
+.borde{
+    border: 1px solid black;
+}
+
+/* Encabezado */
+
+header{
+    background-color: cadetblue;
+    grid-area: header;
+}
+
+/* Seccion de la pagina*/
+
+footer{
+    background-color: coral;
+    grid-area: footer;
+}
+section#productos{
+    background-color: burlywood;
+    grid-area: productos;
+}
+section#servicios{
+    background-color: cornflowerblue;
+    grid-area: servicios;
+}
+nav{
+    background-color: antiquewhite;
+    grid-area: navegacion;
+}
+aside{
+    background-color: mediumslateblue;
+    grid-area: publicidad;
+}
