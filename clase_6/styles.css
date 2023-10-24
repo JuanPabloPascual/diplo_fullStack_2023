@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    margin-right: 32%%;
+}
+.movie{
+    display: block;
+    margin: 10px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+.movie img{
+    width: 100%;
+    height: auto;
+}
+
+/* Tamaño tablet y compu */
+
+@media(min-width: 501px){
+    .movie{
+        width: 35%;
+    }
+}
+@media(min-width: 801px){
+    .movie{
+        width: 20%;
+    }
+}
