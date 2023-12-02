@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+    margin: 0%;
+}
+
+footer{
+    background-color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.redes_sociales{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redes_sociales i {
+    margin: 5px 10px;
+    color: blue
+
+}

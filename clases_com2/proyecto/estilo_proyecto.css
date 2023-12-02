@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Celular */
+
+@media(min-width: 501px){
+    .movie{
+        width: 35%;
+    }
+}
+
+/*Tablet */
+
+@media(min-width: 801px){
+    .movie{
+        width: 20%;
+}
+}

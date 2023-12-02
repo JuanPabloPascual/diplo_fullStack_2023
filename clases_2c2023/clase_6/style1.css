@@ -1,13 +1,40 @@
 body{
     background-color: goldenrod;
 }
+
+form{
+    max-width: 400px;
+    margin: auto;
+}
+
+
 header{
-    margin-left: 15%;
+    margin-left: 5%;
 }
+
+
 h1{
-    font-size: 20px;
-    background-color: gainsboro;
-    border-radius: 4px;
-    margin-right: 10%;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkred;
     text-align: center;
+    width: 90%;
+    padding: 15px;
 }
+
+input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 4%;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: darkred;
+    border-radius: 2%;
+    color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+} 

@@ -19,7 +19,7 @@ body{
     height: auto;
 }
 
-/* Tamaño tablet y compu */
+/* Tamaño celu, tablet y compu */
 
 @media(min-width: 501px){
     .movie{
