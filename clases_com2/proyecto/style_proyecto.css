@@ -1,0 +1,78 @@
+/* Navbar  */
+
+.body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color:black;
+    color:rgb(2, 2, 2);
+    border-bottom: 2px solid;
+}
+
+.navbar-brand{
+     color: rgb(8, 8, 8);
+     font-weight: bold;
+     font-size: 24px;
+}
+
+.navbar-toggler-icon{
+    background-color: yellow;
+}
+
+.container-fluid{
+    background-color: skyblue
+}
+.dropdown-menu{
+    background-color: pink;
+}
+
+/* Carrousel */
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.redes_sociales{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redes_sociales i {
+    margin: 5px 10px;
+    color: black
+}
+
+
+
+
+
+/*Celular y Tablet  
+
+@media(min-width: 501px){
+    .movie{
+        width: 35%;
+    }
+}
+
+/*Tablet 
+
+@media(min-width: 801px){
+    .movie{
+        width: 20%;
+}
+}                 */
