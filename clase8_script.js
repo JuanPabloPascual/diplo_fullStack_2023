@@ -1,3 +1,8 @@
+
+
+// Todos estos ejemplos de logica para inicar la comprension de JavaScritp desde el servidor o terminal //
+
+
 let nombre = "Lucas";
 let numero = 10;
 let boolan = false;
