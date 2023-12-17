@@ -68,3 +68,14 @@
 
 // mostrarMensajeEdad(12)
 
+// Metodos de Array // 
+
+// let numeros = [1, 2, 3, 4, 5] 
+
+                                         // Map //
+
+// let cuadrados = numeros.map(numero => numero * numero) 
+// console.log(cuadrados)
+
+                                       // Filter  //
+
