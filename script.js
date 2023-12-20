@@ -68,7 +68,7 @@
 
 // mostrarMensajeEdad(12)
 
-// Metodos de Array // 
+                                   // Metodos de Array // 
 
 // let numeros = [1, 2, 3, 4, 5] 
 
@@ -79,3 +79,55 @@
 
                                        // Filter  //
 
+// let pares = numeros.filter(numero => numero % 2 == 0)
+// console.log(pares)
+                                       
+                                       // Reduce //               Se puede usar para una facturacion por ejemplo. Un sistema para contabilizar facturaciones 
+
+// let sumaTotal = numeros.reduce((total, numero) => total + numero, 0)
+// console.log(sumaTotal)                                  
+                                
+// let frutas = [ "manzana", "banana", "naranja", "uva" ]
+// let indice = frutas.lastIndexOf("naranja")
+// console.log(indice)
+
+//let num = [1, 2, 3, 4, 5]
+                                      // Push y Pop //
+// num.push (6)
+// console.log(num)
+// let ultimoNumero = num.pop();
+// console.log (ultimoNumero)
+// console.log (num)
+
+
+// Ejercicio: Escribe una funcion llamada "verificarNumero" que tome un numero como argumento y muestre en la consola si el numero es positivo, negativo o cero //
+
+
+// function verificarNumero(numero){
+//    if(numero > 0){
+//        console.log("El numero es positivo")
+//    }
+//    else if(numero < 0){
+//        console.log("El numero es negativo")
+//    }
+//    else {
+//        console.log("El numero es cero")
+//    }
+// }
+
+
+// Ejercicio: Escribe una funcion llamda "calcularAreaTriangulo" que tome la base y la altura de un triangulo como argumentos y devuelva el area del triangulo //
+
+// Va con IF por si hay un 0 que rompa la funcion
+
+
+// function calcularAreaTriangulo(base, altura){
+//    if(base <= 0 || altura <= 0){
+//        console.log("Error")
+//        return;
+//    }
+//    const area = (base * altura) / 2
+//    console.log(area)
+// }
+
+// calcularAreaTriangulo(5, 8)
